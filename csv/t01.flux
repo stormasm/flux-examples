@@ -17,4 +17,4 @@ data = "
 ,,3,40,d
 "
 
-csv.from(csv: data) |> yield(name: "res")
+csv.from(csv: data) |> count(column: "value") |> yield(name: "res")
