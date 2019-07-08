@@ -3,4 +3,4 @@
 
 import "csv"
 
-csv.from(file: "./file1.csv") |> sum(column: "value")
+csv.from(file: "./file01a.csv") |> sum(column: "value")
