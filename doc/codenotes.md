@@ -1,4 +1,23 @@
 
+in package lang
+there is a file compiler.go
+which has most of the core high level logic.
+see the method Start for the toplevel stuff.
+I guess eventually this will be replaced
+by the new work affo is working on
+(see references below to CompilationExecution)
+
+these 2 lines of code seems pretty mission critical
+to understanding what happens to the results
+
+```
+	e := execute.NewExecutor(p.Dependencies, p.Logger)
+```
+
+```
+	go p.processResults(ctx, q, resultMap)
+```
+
 so this is going to be a random stream of consciousness
 but eventually this will get organized and make more sense
 
