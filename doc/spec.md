@@ -14,7 +14,12 @@ type Spec struct {
 	children map[OperationID][]*Operation
 	parents  map[OperationID][]*Operation
 }
+```
 
+These specs are defined in the corresponding individual files located in
+[stdlib/universe](https://github.com/influxdata/flux/tree/master/stdlib/universe)
+
+```go
 type CountOpSpec struct {
 	execute.AggregateConfig
 }
