@@ -1,0 +1,5 @@
+Result: _result
+Table: keys: [_start, _stop, _field, _measurement, frequency, type]
+                   _start:time                      _stop:time           _field:string     _measurement:string        frequency:string             type:string                  _value:float  
+------------------------------  ------------------------------  ----------------------  ----------------------  ----------------------  ----------------------  ----------------------------  
+2019-09-20T02:54:16.728313000Z  2020-04-06T02:54:16.728313000Z                   close                      ui                   daily                   quote            154.50674074074075  
